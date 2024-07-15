@@ -62,9 +62,7 @@ const App = () => {
 
   return (
     <div>
-      <Header count={cart.length} 
-        handleShow={handleShow} />
-
+      <Header count={cart.length} handleShow={handleShow} />
       {
         showCart ? 
         <CartList cart={cart} />:
